@@ -1,0 +1,37 @@
+* Test Exercise for [[https://internship.neolab.io/][NEOLAB Internship]]
+
+All examles are shown for *nix, for Windows use ~gradle.bat~ instead of ~gradlew~
+
+** To build application.
+
+~$ gradlew build~
+
+Results into ~./bin/~ directory as *.class files
+
+** To run application. 
+
+~$ gradle run~
+
+But nothing happens, because App only creates class instances, no other logic.
+
+** To test application.
+
+~$ gradle test~
+
+Here 3 test: ~AppTest~, ~StringProcessorTest~, ~RomeNumberCreatorTest~
+
+For tests used JUnit 4.
+
+All tests passes successfully.
+
+** To create javadoc.
+
+~$ gradlew Javadoc~ 
+
+Results into ~./build/doc/javadoc/~ directory
+
+** To create jar with all dependecies.
+
+~$ gradlew fatJar~
+
+Results into ~./build/libs/~ directory
