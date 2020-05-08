@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class RomeNumberTest {
   @Test
-  public void testAppHasAGreeting() {
+  public void testConvertingNumbers() {
     RomeNumber romeNumber = new RomeNumber();
 
     assertEquals("XII", romeNumber.from(12));

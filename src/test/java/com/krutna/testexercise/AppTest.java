@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class AppTest {
   @Test
-  public void testAppHasAGreeting() {
+  public void testApp() {
     App application = new App();
   }
 }
