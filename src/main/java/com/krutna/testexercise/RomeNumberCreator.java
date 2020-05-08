@@ -5,7 +5,12 @@ import java.util.List;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
-public class RomeNumber {
+/**
+ * Class, which represents working with Rome numeral format, such as converting into it
+ *
+ * @autor KrutNA
+ */
+public class RomeNumberCreator {
 
   private static final TreeMap<Integer, String> map = new TreeMap<>();
 
@@ -25,6 +30,14 @@ public class RomeNumber {
     map.put(1, "I");
   }
 
+  /**
+   * Converts integer value to Rome numeral format in String.
+   *
+   * @param value Value which will be converted to Rome numeral.
+   * @return String, which represents resulted Rome numeral, returns empty String, if value equals
+   *     0.
+   * @throws IllegalArgumentException if value is out of Rome numeral boundaries (0..4000)
+   */
   public final String from(final int value) {
     final List<String> digits = new LinkedList<>();
 

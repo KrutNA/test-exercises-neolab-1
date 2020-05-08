@@ -9,9 +9,9 @@ public class StringProcessorTest {
   public void testStringProcessorReversing() {
     StringProcessor processor = new StringProcessor();
 
-    assertEquals(processor.revertString("nahsirg"), "grishan");
-    assertEquals(processor.revertString("ultr53o?n"), "nortlu");
-    assertEquals(processor.revertString("h7dw2366j..L33T"), "TLjwdh");
-    assertEquals(processor.revertString("123"), "");
+    assertEquals("grishan", processor.revertString("nahsirg"));
+    assertEquals("nortlu", processor.revertString("ultr53o?n"));
+    assertEquals("TLjwdh", processor.revertString("h7dw2366j..L33T"));
+    assertEquals("", processor.revertString("123"));
   }
 }
