@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 /**
  * Class, which represents working with Rome numeral format, such as converting into it
  *
- * @autor KrutNA
+ * @author KrutNA
  */
 public class RomeNumberCreator {
 

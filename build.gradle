@@ -32,3 +32,14 @@ application {
     // Define the main class for the application.
     mainClassName = 'com.krutna.testexercise.App'
 }
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Jar with dependecies',
+            'Main-Class': 'com.krutna.testexercise.App'
+    }
+    archiveVersion = '0.1'
+    archiveBaseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
