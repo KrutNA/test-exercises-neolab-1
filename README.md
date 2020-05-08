@@ -1,22 +1,22 @@
 
 # Table of Contents
 
-1.  [Test Exercise for NEOLAB Internship](#org04e1198)
-    1.  [To build application.](#orgf30108a)
-    2.  [To run application.](#org9adc6a8)
-    3.  [To test application.](#org6f95186)
-    4.  [To create javadoc.](#org7dc778d)
-    5.  [To create jar with all dependecies.](#orgb10cc87)
+1.  [Test Exercise for NEOLAB Internship](#org6c35399)
+    1.  [To build application.](#orge34dba6)
+    2.  [To run application.](#org3029940)
+    3.  [To test application.](#org4cb9888)
+    4.  [To create javadoc.](#org6971ac3)
+    5.  [To create jar with all dependecies.](#orgb377279)
 
 
-<a id="org04e1198"></a>
+<a id="org6c35399"></a>
 
 # Test Exercise for [NEOLAB Internship](https://internship.neolab.io/)
 
-All examles are shown for \*nix, for Windows use `gradle.bat` instead of `gradlew`
+All examles are shown for \*nix, for Windows use `gradlew.bat` instead of `gradlew`
 
 
-<a id="orgf30108a"></a>
+<a id="orge34dba6"></a>
 
 ## To build application.
 
@@ -25,7 +25,7 @@ All examles are shown for \*nix, for Windows use `gradle.bat` instead of `gradle
 Results into `./bin/` directory as \*.class files
 
 
-<a id="org9adc6a8"></a>
+<a id="org3029940"></a>
 
 ## To run application.
 
@@ -34,7 +34,7 @@ Results into `./bin/` directory as \*.class files
 But nothing happens, because App only creates class instances, no other logic.
 
 
-<a id="org6f95186"></a>
+<a id="org4cb9888"></a>
 
 ## To test application.
 
@@ -47,7 +47,7 @@ For tests used JUnit 4.
 All tests passes successfully.
 
 
-<a id="org7dc778d"></a>
+<a id="org6971ac3"></a>
 
 ## To create javadoc.
 
@@ -56,7 +56,7 @@ All tests passes successfully.
 Results into `./build/doc/javadoc/` directory
 
 
-<a id="orgb10cc87"></a>
+<a id="orgb377279"></a>
 
 ## To create jar with all dependecies.
 

@@ -1,6 +1,6 @@
 * Test Exercise for [[https://internship.neolab.io/][NEOLAB Internship]]
 
-All examles are shown for *nix, for Windows use ~gradle.bat~ instead of ~gradlew~
+All examles are shown for *nix, for Windows use ~gradlew.bat~ instead of ~gradlew~
 
 ** To build application.
 
